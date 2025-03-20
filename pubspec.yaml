@@ -9,7 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_screenutil: ^5.9.3
   get: ^4.7.2
+  # 带有凸起按钮的底部导航栏
+  convex_bottom_bar: ^3.2.0
 
 dev_dependencies:
   flutter_test:

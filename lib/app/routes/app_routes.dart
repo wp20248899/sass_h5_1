@@ -9,6 +9,8 @@ abstract class Routes {
   static const SETTING = _Paths.SETTING;
   static const DEPOSIT = _Paths.DEPOSIT;
   static const NOTICE = _Paths.NOTICE;
+  static const LAYOUT = _Paths.LAYOUT;
+  static const KEFU = _Paths.KEFU;
 }
 
 abstract class _Paths {
@@ -19,4 +21,6 @@ abstract class _Paths {
   static const SETTING = '/setting';
   static const DEPOSIT = '/deposit';
   static const NOTICE = '/notice';
+  static const LAYOUT = '/layout';
+  static const KEFU = '/kefu';
 }

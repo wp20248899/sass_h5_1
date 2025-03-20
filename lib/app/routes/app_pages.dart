@@ -6,6 +6,10 @@ import '../modules/discount/bindings/discount_binding.dart';
 import '../modules/discount/views/discount_view.dart';
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
+import '../modules/kefu/bindings/kefu_binding.dart';
+import '../modules/kefu/views/kefu_view.dart';
+import '../modules/layout/bindings/layout_binding.dart';
+import '../modules/layout/views/layout_view.dart';
 import '../modules/my/bindings/my_binding.dart';
 import '../modules/my/views/my_view.dart';
 import '../modules/notice/bindings/notice_binding.dart';
@@ -18,7 +22,7 @@ part 'app_routes.dart';
 class AppPages {
   AppPages._();
 
-  static const INITIAL = Routes.HOME;
+  static const LAYOUT = Routes.LAYOUT;
 
   static final routes = [
     GetPage(
@@ -31,11 +35,7 @@ class AppPages {
       page: () => const DiscountView(),
       binding: DiscountBinding(),
     ),
-    GetPage(
-      name: _Paths.MY,
-      page: () => const MyView(),
-      binding: MyBinding(),
-    ),
+    GetPage(name: _Paths.MY, page: () => const MyView(), binding: MyBinding()),
     GetPage(
       name: _Paths.SETTING,
       page: () => const SettingView(),
@@ -50,6 +50,16 @@ class AppPages {
       name: _Paths.NOTICE,
       page: () => const NoticeView(),
       binding: NoticeBinding(),
+    ),
+    GetPage(
+      name: _Paths.LAYOUT,
+      page: () => const LayoutView(),
+      binding: LayoutBinding(),
+    ),
+    GetPage(
+      name: _Paths.KEFU,
+      page: () => const KefuView(),
+      binding: KefuBinding(),
     ),
   ];
 }

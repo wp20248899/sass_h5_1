@@ -36,10 +36,6 @@
 		<data>
 		dYXr+01d5xBGtFpM3nCFUg3J+A0=
 		</data>
-		<key>flutter_assets/assets/images/public/17.png</key>
-		<data>
-		u3winKhOkXP75hv6i9QgAIeWsTY=
-		</data>
 		<key>flutter_assets/assets/images/public/bottom_customer.webp</key>
 		<data>
 		1XhdQavzmnkE7UFLMfVhlH9XFbs=
@@ -90,7 +86,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		nK4u2AMXfiI9gHOHZkHXJpCkVtU=
+		uCFPCv03aklH4Ke8XDip1Hk5ltg=
 		</data>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
@@ -143,13 +139,6 @@
 			<key>hash2</key>
 			<data>
 			jRVeI1/TSqIJUPwt3+q4XKBffHHm2QKZHIaQj3NMOTk=
-			</data>
-		</dict>
-		<key>flutter_assets/assets/images/public/17.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EX0kCzPeB6vy4TR4hbkPl3rq35NiAkQXXy0BG0GTWoI=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/images/public/bottom_customer.webp</key>
@@ -240,7 +229,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lDkbmqKokgtcRynJSchdims5MRK7Fnrrhw+2FJFRhbw=
+			22E/NFksi/PMxPxJk5hIpg4bRckJ0tCZ+eS+3lMWLgY=
 			</data>
 		</dict>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>

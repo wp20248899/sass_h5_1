@@ -6,7 +6,7 @@ class LoadPathUtils {
   }
 
   // 2、加载不同模版主题下的图片路径
-  static String themePath(String theme, String name) {
-    return 'assets/images/$theme/$name';
+  static String themePath(String name) {
+    return 'assets/images/chess/$name';
   }
 }

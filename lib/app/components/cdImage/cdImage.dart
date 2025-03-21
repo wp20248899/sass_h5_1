@@ -3,31 +3,16 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:sass_h5_1/app/utils/com_utils.dart' show LoadPathUtils;
 
 class CdImage extends StatelessWidget {
-  // 图片路径或 URL
-  final String? src;
-
-  // 是否为本地图片
-  final bool isLocal;
-
-  // 占位符图片
-  final Widget placeholder;
-
-  // 错误图片
-  final Widget errorWidget;
-
-  // 宽度和高度
-  final double? width;
-  final double? height;
-
-  // 圆角半径
-  final double borderRadius;
-
-  // 边框宽度和颜色
-  final double borderWidth;
-  final Color borderColor;
-
-  // 图片平铺方式
-  final BoxFit? fit;
+  final String? src; //图片路径
+  final bool isLocal; //是否是本地图片
+  final Widget placeholder; // 占位符图片
+  final Widget errorWidget; // 错误图片
+  final double? width; // 宽度
+  final double? height; // 高度
+  final double borderRadius; // 圆角半径
+  final double borderWidth; // 边框宽度
+  final Color borderColor; // 边框颜色
+  final BoxFit? fit; // 图片平铺方式
 
   const CdImage({
     super.key,

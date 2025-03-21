@@ -47,6 +47,10 @@ app.*.map.json
 # Additional entries
 /android/
 /ios/
+/macos/
+/web/
+/windows/
+/linux/
 /build/
 /.idea/
 /.vscode/

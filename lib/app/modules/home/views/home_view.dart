@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:sass_h5_1/app/components/cdImage/cdImage.dart';
 import '../controllers/home_controller.dart';
 
 class HomeView extends GetView<HomeController> {
@@ -8,10 +9,14 @@ class HomeView extends GetView<HomeController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('首页'), centerTitle: true),
-      body: const Center(
-        child: Text('home_view is working', style: TextStyle(fontSize: 20)),
+      appBar: AppBar(
+        title: const Text(
+          'home',
+          style: TextStyle(color: Colors.white, fontSize: 20),
+        ),
+        centerTitle: true,
       ),
+      body: Center(child: CdImage(src: '1.jpg', width: 150, height: 150)),
     );
   }
 }

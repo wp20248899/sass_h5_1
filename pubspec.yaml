@@ -9,10 +9,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  # 屏幕适配
   flutter_screenutil: ^5.9.3
   get: ^4.7.2
   # 带有凸起按钮的底部导航栏
   convex_bottom_bar: ^3.2.0
+  # 图片缓存
+  cached_network_image: ^3.4.1
+  # 加载SVG图片
+  flutter_svg: any
 
 dev_dependencies:
   flutter_test:
@@ -21,3 +26,10 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    # 所有模版主题下的公共路径
+    - assets/images/public/
+    # 不同主题下的图片路径
+    - assets/images/blueCobalt/
+    - assets/images/chess/
+    - assets/images/purple/
